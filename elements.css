@@ -1,0 +1,277 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    display: inline-block;
+    width: 4.5%;
+}
+
+a:hover {
+    color: #AD9966
+}
+
+.nav-link {
+    letter-spacing: 2px;
+    font-weight: 500;
+    width: 50px;
+    font-style: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    transition: 0.3s ease;
+}
+
+.ativado {
+    color: #AD9966
+}
+
+.nav-logo img {
+    width: 66.81px;
+    height: 79.38px;
+    vertical-align: middle;
+}
+
+header>ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+}
+
+.nav-logo {
+    width: 20%;
+    vertical-align: middle;
+}
+
+#sec01 {
+    background-image: url(imagens/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
+    height: 400px;
+    width: 80%;
+}
+
+#roof {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.food-menu {
+    color: white;
+    font-size: 48px;
+    letter-spacing: 10.8px;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+
+.home2menu {
+    margin-top: 5%;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.seta-direita {
+    width: 24px;
+    fill: #ffffff;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.banner {
+    position: sticky;
+}
+
+li {
+    display: inline-block;
+    width: 4.5%;
+}
+
+.drop-seta {
+    width: 11px;
+    margin-left: 6%;
+}
+
+li:hover a,
+li:hover svg {
+    color: #AD9966;
+    fill: #AD9966;
+}
+
+
+.nav-link {
+    letter-spacing: 2px;
+    font-weight: 500;
+    width: 50px;
+    font-style: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    transition: 0.3s ease;
+}
+
+.ativado {
+    color: #AD9966
+}
+
+.nav-logo img {
+    width: 66.81px;
+    height: 79.38px;
+    vertical-align: middle;
+}
+
+header>ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+}
+
+.nav-logo {
+    width: 20%;
+    vertical-align: middle;
+}
+
+#drop {
+    position: relative;
+}
+
+#dropdown {
+    text-align: left;
+    padding-left: 20px;
+    position: absolute;
+    background-color: white;
+    width: 180%;
+    height: 15vh;
+    top: 100%;
+    padding-top: 5vh;
+    opacity: 0;
+    z-index: -100;
+    transition: 0.3s ease;
+    gap: 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+
+}
+
+.space {
+    margin: 15px;
+    right: -10px;
+}
+
+#drop:hover #dropdown {
+    opacity: 1;
+    z-index: 99;
+}
+
+.dptp {
+    transition: 0.3s ease;
+    white-space: nowrap;
+}
+
+#dropdown .dptp {
+    text-decoration: none;
+    color: black;
+}
+
+#dropdown .dptp:hover {
+    color: #AD9966;
+}
+
+.txt-titulo {
+    font-family: "Playfair Display", serif;
+    color: black;
+    font-size: 24px;
+    line-height: 1.2em;
+    margin-left: 15%;
+    margin-top: 32%;
+    font-weight: normal;
+    position: absolute;
+
+}
+
+.sample-butao {
+    font-family: "Playfair Display", serif;
+    color: black;
+    font-size: 24px;
+    line-height: 1.2em;
+    margin-left: 15%;
+    margin-top: 60%;
+    font-weight: normal;
+    position: absolute;
+}
+
+.txt-dl {
+    font-size: 15px;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 36%;
+    color: #777777;
+    line-height: 1.7;
+}
+
+.mod {
+    color: #AD9966;
+}
+
+.butao {
+    display: inline-block;
+}
