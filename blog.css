@@ -262,7 +262,7 @@ header {
 .img1 {
     position: relative;
     display: inline-block;
-    background-image: url(/imagens/cat-widget1.jpg);
+    background-image: url(imagens/cat-widget1.jpg);
     width: 350px;
     height: 213px;
     margin: 10px;
@@ -271,7 +271,7 @@ header {
 .img2 {
     position: relative;
     display: inline-block;
-    background-image: url(/imagens/cat-widget2.jpg);
+    background-image: url(imagens/cat-widget2.jpg);
     width: 350px;
     height: 213px;
     margin: 10px;
@@ -280,7 +280,7 @@ header {
 .img3 {
     position: relative;
     display: inline-block;
-    background-image: url(/imagens/cat-widget3.jpg);
+    background-image: url(imagens/cat-widget3.jpg);
     width: 350px;
     height: 213px;
     margin: 10px;
