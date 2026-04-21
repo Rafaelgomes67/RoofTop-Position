@@ -923,9 +923,6 @@ header {
 
 .right {
     display: inline-block;
-    position: relative;
-    left: 250px;
-    top: -200px;
 }
 
 .ruaendereco {
